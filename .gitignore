@@ -1,0 +1,67 @@
+# Repository root .gitignore for .NET/Visual Studio
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+**/[Bb]in/
+**/[Oo]bj/
+**/[Oo]ut/
+**/[Dd]ebug/
+**/[Rr]elease/
+
+# Logs
+*.log
+Logs/
+
+# Test results and coverage
+TestResults/
+*.coverage
+*.coveragexml
+*.coveragejson
+coverage/
+
+# NuGet
+packages/
+.nuget/packages/
+*.nupkg
+*.snupkg
+project.lock.json
+artifacts/
+
+# Publish outputs
+publish/
+*.Publish.xml
+*.pubxml.user
+Properties/PublishProfiles/*.pubxml.user
+
+# IDE settings
+.vscode/
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper*/
+*.DotSettings.user
+
+# Node (if present)
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
